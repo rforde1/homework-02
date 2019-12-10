@@ -12,6 +12,7 @@ hr{
 
 
 /* Class Selectors */
+
 .main-header{
     background-color:#4aaaa5;
     color: white;
@@ -94,3 +95,16 @@ a:hover{
 
 
 /* Media Queries */
+@media screen and (max-width: 543px) {
+    h1 {
+      position: relative;
+      left:40%;
+      padding-left: 20px;
+      border-radius: 25px;
+    }
+    .link-style{
+        position: relative;
+        left:87%;
+        padding-left: 20px;
+      }
+  }
