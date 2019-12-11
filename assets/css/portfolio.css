@@ -1,8 +1,22 @@
-.box{
+/* .box{
     background-color:#4aaaa5;
     color:white;
     height:150px;
     width:150px;
     margin:10%;
     border:2px solid teal;
+} */
+img{
+    border:2px solid teal;
+    height:150px;
+    width:150px;
+    margin:10%;
+
+}
+
+/* Media Queries */
+@media screen and (max-width: 543px){
+    img{
+margin-left: 75px;
+    }
 }
