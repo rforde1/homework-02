@@ -1,11 +1,4 @@
-/* .box{
-    background-color:#4aaaa5;
-    color:white;
-    height:150px;
-    width:150px;
-    margin:10%;
-    border:2px solid teal;
-} */
+/* Element Selectors */
 img{
     border:2px solid teal;
     height:150px;
@@ -14,9 +7,32 @@ img{
 
 }
 
+/* Class Selectors */
+
+.overlay{
+    background-color: white;
+    color: teal;
+    position: absolute;
+    left: 81px;
+    bottom: 82px;
+    padding-left: 25px;
+    width: 106px;
+    border: 2px solid teal;
+}
+
+/* Psuedo Selectors */
+.hover-style:hover{
+    border:5px solid red;
+}
+
 /* Media Queries */
 @media screen and (max-width: 543px){
     img{
 margin-left: 75px;
     }
+
+    .overlay{
+        margin-left: 27px;
+    }
 }
+
