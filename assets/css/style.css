@@ -10,6 +10,11 @@ hr{
     border-top:4px solid rgba(0,0,0,.1);
 }
 
+p{
+    font-size: 57px;
+    font-family: 'Oswald', sans-serif;
+    color:#397d7a;
+}
 
 /* Class Selectors */
 
